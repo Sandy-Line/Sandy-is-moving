@@ -26,16 +26,22 @@ h3 {
 a {
   margin: 20px;
   border-radius: 4px;
-  padding: 16px 20px;
+  padding: 12px 30px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
 a:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
 }
 
 .homepage-div h2 {
